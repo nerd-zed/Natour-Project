@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: inherit;
+}
+
+html {
+    /* 
+    by default browser(user agent) specifies the default will be 16px 
+    in order to use rem unit we need to specify the below font size in 
+    percentage format because , when the user changes the font size of 
+    the browser then that doesn't really work. So we need it to percentage.
+
+    for that conversion -> ( 10px / 16px ) = 0.625 * 100 = 62.5%
+
+    */
+    font-size: 62.5%; /* Actually 10px */
+}
+
+body {
+        box-sizing: border-box;
+}

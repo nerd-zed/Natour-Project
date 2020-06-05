@@ -1,0 +1,4 @@
+
+#Ignoring the node_modules folder created by node-sass
+
+node_modules/
