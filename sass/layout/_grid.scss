@@ -8,6 +8,7 @@
 
     @include clearfix;
 
+    //w3schools.com/css/css_attribute_selectors.asp
     [class^="col-"] {
         float: left;
     
