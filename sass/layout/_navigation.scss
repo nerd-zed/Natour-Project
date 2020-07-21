@@ -53,6 +53,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         width: 100%;
+
         
     }
 
@@ -97,6 +98,8 @@
     &__checkbox:checked ~ &__nav {
         opacity: 1;
         width: 100%;
+        visibility: visible;
+
     }
 
 
